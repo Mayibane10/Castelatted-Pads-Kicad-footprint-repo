@@ -1,0 +1,128 @@
+(footprint "Castelatted 01x01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "829574e2-742b-4f3b-8889-3c73ae683201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Castelatted 01x01"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9db03770-7573-43b9-a3cd-d03984cefc82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5740e923-e56b-4429-9a6f-eb85344be137")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76865246-a352-48ea-8165-794456a207cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.27 -1.524)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ca108e89-1d78-47e9-9dde-021270aa93ad")
+	)
+	(fp_rect
+		(start -0.254 -0.184)
+		(end 0.254 0.324)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "27712970-5222-4eef-8af1-a6beecab112a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da119a12-68b2-4cbd-8b42-9a93315b2cd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.5 270)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(thermal_bridge_angle 0)
+		(uuid "8386790f-695d-4559-a50e-6459165e1f97")
+	)
+	(pad "1" thru_hole custom
+		(at 0 0.07 90)
+		(size 1.016 1.016)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.188651 0.803455) (xy -0.352371 0.733074) (xy -0.497855 0.630155) (xy -0.618729 0.499208)
+					(xy -0.709699 0.345969) (xy -0.766779 0.17715) (xy -0.7874 0.000741) (xy -0.7874 -0.000592) (xy -0.770781 -0.178542)
+					(xy -0.715922 -0.349474) (xy -0.625481 -0.504547) (xy -0.503717 -0.636459) (xy -0.356363 -0.738996)
+					(xy -0.19036 -0.807333) (xy -0.013803 -0.8382) (xy 1.27 -0.8382) (xy 1.27 0.8382) (xy -0.013951 0.8382)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "cedc514f-3f3f-4f6e-956f-07516dd2e4b6")
+	)
+	(embedded_fonts no)
+)
